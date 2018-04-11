@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="100dp"
+    android:orientation="vertical"
+    android:background="@color/gray_li">
+
+    <TextView
+        android:text="关于"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:text="四象限法则:著名管理学家史蒂芬·科维提出的一个时间管理理论。史蒂芬·科维把工作按照重要和紧急两个不同的程度进行了划分，基本上可以分为四个象限：既紧急又重要、重要但不紧急、紧急但不重要、既不紧急也不重要。按处理顺序划分：先是既紧急又重要的，接着是紧急但不重要的，再到重要但不紧急的，最后是既不紧急也不重要的。"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/aboutbutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_send"
+            android:layout_marginLeft="2dp"
+            android:text="我知道了"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

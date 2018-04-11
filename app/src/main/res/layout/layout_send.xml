@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="100dp"
+    android:orientation="vertical"
+    android:background="@color/gray_li">
+
+    <TextView
+        android:text="反馈"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:layout_weight="1"/>
+    <TextView
+        android:textColor="@color/white"
+        android:text="使用中遇到问题或有其他建议吗"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:layout_weight="1"/>
+    <TextView
+        android:textColor="@color/white"
+        android:text="GitHub:https://github.com/lovesatoriforever"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/sendbuttoncancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_send"
+            android:layout_marginRight="2dp"
+            android:text="取消"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/sendbuttonok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_send"
+            android:layout_marginLeft="2dp"
+            android:text="联系作者"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

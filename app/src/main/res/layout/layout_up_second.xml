@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="200dp"
+    android:orientation="vertical"
+    android:background="@color/second_s">
+
+    <EditText
+        android:id="@+id/secondedittext"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/secondbuttoncancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_second"
+            android:layout_marginRight="2dp"
+            android:text="取消"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/secondbuttonok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_second"
+            android:layout_marginLeft="2dp"
+            android:text="确定"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
